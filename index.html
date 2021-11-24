@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-theme-l1">Logo</a>
+    <a href="https://wijn-olijfolie.w3spaces.com/" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Kroatische wijn awards</a>
+    <a href="https://wijn-olijfolie.w3spaces.com/rode-wijn-en-witte-wijn-geschiedenis.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Rode en witte wijn geschiedenis</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Olijfolie</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-hide-medium w3-hover-white">Druiven</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4 class="w3-bar-item"><b>Wijn en Olijfolie</b></h4>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Rode Wijn</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Witte Wijn</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Rosé</a>
+  <a class="w3-bar-item w3-button w3-hover-black" href="#">Mousserende wijn</a>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Wijn</h1>
+      <p>wijn is het gefermenteerde sap van dedruif . Van het druivengeslacht Vitis wordt één soort , V. vinifera (vaak ten onrechte de Europese druif genoemd), bijna uitsluitend gebruikt. Dranken die zijn geproduceerd van V. labrusca , de inheemse Amerikaanse druif, en van andere druivensoorten worden ook als wijn beschouwd. Wanneer andere vruchten worden gefermenteerd om een ​​soort wijn te produceren, wordt de naam van de vrucht opgenomen, zoals in de termen perzikwijn en bramenwijn .</p>
+    </div>
+
+  </div>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal">Verspreiding van de wijn in Europa</h2>
+      <p>De verspreiding van wijnbouw Vitis vinifera werd gecultiveerd in het Midden-Oosten door 4000 VOOR CHRISTUS en waarschijnlijk eerder. Egyptische archieven uit 2500 VCE verwijzen naar het gebruik van druiven voor het maken van wijn, en talrijke bijbelse verwijzingen naar wijn duiden op de vroege oorsprong en betekenis van de industrie in het Midden-Oosten . DeGrieken voerden een actieve wijnhandel en plantten druiven in hun kolonies van de Zwarte Zee tot aan Spanje . DeRomeinen droegen de druiventeelt naar de valleien van de Rijn en de Moezel (die de grote wijngebieden van Duitsland en de Elzas werden ), de Donau (van Roemenië , Servië , Kroatië , Hongarije en Oostenrijk ), en de Rhône , Saône , Garonne , Loire , en Marne (die de grote Franse regio's van Rhône, Bourgondië , Bordeaux , Loire en Champagne definiërenrespectievelijk). De rol van wijn in de christelijke massa hielp de industrie in stand te houden na de val van het Romeinse Rijk , en kloosterorden behielden en ontwikkelden veel van de hoog aangeschreven wijnproducerende gebieden in Europa .</p>
+    </div>
+
+  </div>
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h2 class="w3-text-teal"><a href="https://adrianysus.com/witte-wijn/" target="_blank">Witte wijn</a> in de nieuwe wereld</h2>
+      <p>Naar aanleiding van de reizen van Columbus, druif cultuur werden en wijn maken vervoerd van de Oude Wereld naar deNieuw . Spaanse missionarissen brachten de wijnbouw halverwege de 16e eeuw naar Chili en Argentinië en in de 18e naar Baja California . Met de stroom van Europese immigratie in de 19e en vroege 20e eeuw, werden moderne industrieën ontwikkeld op basis van geïmporteerde V. vinifera- druiven. De belangrijkste wijnbouwgebieden van Zuid-Amerika werden gevestigd in de uitlopers van het Andesgebergte . In Californië verschoof het centrum van de wijnbouw van de zuidelijke missies naar de Central Valley en de noordelijke graafschappen Sonoma , Napa en Mendocino.</p>
+<p>Britse kolonisten plantten in het begin van de 19e eeuw Europese wijnstokken in Australië en Nieuw-Zeeland , en Nederlandse kolonisten namendruiven uit het Rijngebied naar Zuid-Afrika al in 1654.</p>
+    </div>
+
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h3 class="w3-text-teal">Teelt en groei van de druiven</h3>
+      <p>Druiven, hoewel in de eerste plaats een plant uit de gematigde zone, kunnen onder semitropische omstandigheden worden gekweekt. Ze zijn niet aangepast aan de koelere delen van de gematigde zone, waar de groeiseizoenen te kort kunnen zijn om het fruit tot rijpheid te laten komen of waar lage wintertemperaturen (minder dan -7 °C) de wijnstok kunnen doden of zijn vruchtbare knoppen. V. vinifera is gevoeliger voor schade door winterse omstandigheden dan V. labrusca .</p>
+
+<p>Voor het maken van zowel <a href="https://adrianysus.com/rode-wijn/" target="_blank"><b>rode wijn</b></a> als <a href="https://adrianysus.com/witte-wijn/" target="_blank"><b>witte wijn</b></a> heeft het klimaat een sterke invloed op de samenstelling van rijpe druiven. Een belangrijke oorzaak van de variatie tussen druiven uit verschillende gebieden zijn de verschillende hoeveelheden warmte die de wijnstokken ontvangen tijdens het groeiseizoen . Andere belangrijke factoren zijn verschillen in dag- en nachttemperatuur, zonuren en bodemtemperatuur.</p>
+
+<p>Druiven beginnen hun groeicyclus in het voorjaar wanneer de gemiddelde dagelijkse temperatuur ongeveer 10 ° C (50 ° F) is. Om volwassen te worden, hebben ze tijdens het groeiseizoen een bepaalde hoeveelheid warmte boven de 10 °C nodig. Deze hoeveelheid warmte, genaamd dewarmtesom, wordt berekend door het aantal graden gemiddelde dagtemperatuur boven 10 °C voor elke dag van het groeiseizoen bij elkaar op te tellen. Voor een succesvolle groei is een warmtesommatie van ongeveer 1.800° nodig. Als de warmtesommatie minder is dan vereist, zullen de druiven niet rijpen; ze zullen het einde van het groeiseizoen bereiken met onvoldoende suiker en te veel zuurgraad. Deze aandoening, die vaak voorkomt in het oosten van de Verenigde Staten, Zwitserland en andere koele streken, kan worden gecorrigeerd door suiker aan de geplette druiven toe te voegen. Waar de warmtesommatie veel groter is dan vereist, zoals in Algerije en delen van Californië, rijpen de druiven eerder en met minder zuurgraad en kleur dan die welke onder koelere omstandigheden worden geproduceerd.</p>
+
+<p>Factoren die de warmte som van een wijngaard en derhalve druif samenstelling omvatten blootstelling (Europese best vanuit het oosten), lucht afvoer (bij voorkeur van de hellingen het dal), de bodemtemperatuur (boven 10 ° C tijdens het groeiseizoen) en bodemvochtgehalte (te allen tijde niet te droog en niet langer dan korte perioden drassig).</p>
+
+<p>Seizoensgebonden omstandigheden kunnen ook kritiek zijn, vooral in regio's met een lage warmtesommatie, zoals in delen van Frankrijk en Duitsland . Wanneer het groeiseizoen in dergelijke gebieden warmer is dan normaal, is het geproduceerde fruit rijper en evenwichtiger dan gebruikelijk is in koele seizoenen. In warme streken kunnen de zoetere dessertwijnen profiteren van een wat lage warmtesommatie, wat resulteert in minder bessenrozen (vochtverlies) en het fruit een betere kleur en zuurgraad geven dan wordt bereikt wanneer het groeiseizoen extreem warm is.</p>
+
+<p>Kweekpraktijken zoals wieden en snoeien kunnen ook de samenstelling van het rijpe fruit beïnvloeden. Hoewel de samenstelling van de bodem van invloed is op de bodemtemperatuur, wortelpenetratie, het waterhoudend vermogen en de voeding van de wijnstokken, is het effect ervan op de kwaliteit van wijn, variërend van regio tot regio, slecht begrepen.</p>
+<p><img src="https://www.fruitatwork.eu/web/image/6052/Image_druif1_800x450.png" alt="Druiven voor het maken van rode wijn">
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a class="w3-button w3-black" href="#">1</a>
+      <a class="w3-button w3-hover-black" href="#">2</a>
+      <a class="w3-button w3-hover-black" href="#">3</a>
+      <a class="w3-button w3-hover-black" href="#">4</a>
+      <a class="w3-button w3-hover-black" href="#">5</a>
+      <a class="w3-button w3-hover-black" href="#">»</a>
+    </div>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      <h4>Footer</h4>
+    </div>
+
+    <div class="w3-container w3-theme-l1">
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
